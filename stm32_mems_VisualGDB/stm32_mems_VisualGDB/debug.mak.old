@@ -6,7 +6,7 @@ BINARYDIR := Debug
 
 #Additional flags
 PREPROCESSOR_MACROS := DEBUG=1
-INCLUDE_DIRS := 
+INCLUDE_DIRS := ../../stm32_mems_cube/Inc ../../../../../Downloads/en.x-cube-mems1/STM32CubeExpansion_MEMS1_V3.0.0/Drivers/BSP/Components/lsm6ds0 ../../../../../Downloads/en.x-cube-mems1/STM32CubeExpansion_MEMS1_V3.0.0/Drivers/BSP/Components/lsm6ds3 ../../../../../Downloads/en.x-cube-mems1/STM32CubeExpansion_MEMS1_V3.0.0/Drivers/BSP/Components/hts221
 LIBRARY_DIRS := 
 LIBRARY_NAMES := 
 ADDITIONAL_LINKER_INPUTS := 

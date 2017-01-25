@@ -125,13 +125,13 @@
 			<type>1</type>
 			<location>C:/Users/pluspole/STM32Cube/Repository/STM32Cube_FW_F4_V1.14.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c</location>
 		</link><link>
-			<name>Application/TrueSTUDIO/startup_stm32f446xx.s</name>
-			<type>1</type>
-			<location>C:/Users/pluspole/STM32Cube/Repository/STM32Cube_FW_F4_V1.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f446xx.s</location>
-		</link><link>
 			<name>Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.c</name>
 			<type>1</type>
 			<location>C:/Users/pluspole/STM32Cube/Repository/STM32Cube_FW_F4_V1.14.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c</location>
+		</link><link>
+			<name>Application/TrueSTUDIO/startup_stm32f401xe.s</name>
+			<type>1</type>
+			<location>C:/Users/pluspole/STM32Cube/Repository/STM32Cube_FW_F4_V1.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s</location>
 		</link><link>
 			<name>Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.c</name>
 			<type>1</type>

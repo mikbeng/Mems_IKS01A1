@@ -332,9 +332,6 @@
 #ifndef __UACCUM_EPSILON__
 #define __UACCUM_EPSILON__ 0x1P-16UK
 #endif
-#ifndef STM32F446RE
-#define STM32F446RE 1
-#endif
 #ifndef __GNUC__
 #define __GNUC__ 6
 #endif
@@ -526,9 +523,6 @@
 #ifndef __FLT_MIN_10_EXP__
 #define __FLT_MIN_10_EXP__ (-37)
 #endif
-#ifndef STM32F446xx
-#define STM32F446xx 1
-#endif
 #ifndef __LACCUM_MIN__
 #define __LACCUM_MIN__ (-0X1P31LK-0X1P31LK)
 #endif
@@ -576,6 +570,9 @@
 #endif
 #ifndef __UTQ_FBIT__
 #define __UTQ_FBIT__ 128
+#endif
+#ifndef STM32F401RE
+#define STM32F401RE 1
 #endif
 #ifndef __FLT_MANT_DIG__
 #define __FLT_MANT_DIG__ 24
@@ -714,6 +711,9 @@
 #endif
 #ifndef __DEC32_SUBNORMAL_MIN__
 #define __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
+#endif
+#ifndef STM32F401xE
+#define STM32F401xE 1
 #endif
 #ifndef __INT_FAST16_MAX__
 #define __INT_FAST16_MAX__ 0x7fffffff

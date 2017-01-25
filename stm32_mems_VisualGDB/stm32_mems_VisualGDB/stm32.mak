@@ -16,7 +16,7 @@ AR := $(TOOLCHAIN_ROOT)/bin/arm-eabi-ar.exe
 OBJCOPY := $(TOOLCHAIN_ROOT)/bin/arm-eabi-objcopy.exe
 
 #Additional flags
-PREPROCESSOR_MACROS += ARM_MATH_CM4 STM32F446RE stm32_flash_layout STM32F446xx
+PREPROCESSOR_MACROS += ARM_MATH_CM4 STM32F401RE stm32_flash_layout STM32F401xE
 INCLUDE_DIRS += . $(BSP_ROOT)/STM32F4xxxx/STM32F4xx_HAL_Driver/Inc $(BSP_ROOT)/STM32F4xxxx/STM32F4xx_HAL_Driver/Inc/Legacy $(BSP_ROOT)/STM32F4xxxx/CMSIS_HAL/Device/ST/STM32F4xx/Include $(BSP_ROOT)/STM32F4xxxx/CMSIS_HAL/Include
 LIBRARY_DIRS += 
 LIBRARY_NAMES += 
@@ -29,5 +29,5 @@ CXXFLAGS +=
 ASFLAGS += -mfpu=fpv4-sp-d16
 LDFLAGS +=  
 COMMONFLAGS += -mcpu=cortex-m4 -mthumb -mfloat-abi=soft
-LINKER_SCRIPT := $(BSP_ROOT)/STM32F4xxxx/LinkerScripts/STM32F446RE_flash.lds
+LINKER_SCRIPT := $(BSP_ROOT)/STM32F4xxxx/LinkerScripts/STM32F401RE_flash.lds
 

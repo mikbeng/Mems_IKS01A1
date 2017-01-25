@@ -36,6 +36,7 @@
   /* Includes ------------------------------------------------------------------*/
 
 /* USER CODE BEGIN Includes */
+#include "HTS221_Driver_HL.h"
 
 /* USER CODE END Includes */
 
